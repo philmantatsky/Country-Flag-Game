@@ -17,7 +17,7 @@
 		08AF789B2B4EF0C600A0DC1B /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AF789A2B4EF0C600A0DC1B /* AnswerRow.swift */; };
 		08AF789D2B4EF48800A0DC1B /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AF789C2B4EF48800A0DC1B /* QuestionView.swift */; };
 		08AF789F2B5040DB00A0DC1B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AF789E2B5040DB00A0DC1B /* Data.swift */; };
-		08AF78A12B5041F000A0DC1B /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AF78A02B5041F000A0DC1B /* QuizManager.swift */; };
+		08AF78A32B582B3A00A0DC1B /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AF78A22B582B3A00A0DC1B /* GameManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 		08AF789A2B4EF0C600A0DC1B /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
 		08AF789C2B4EF48800A0DC1B /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		08AF789E2B5040DB00A0DC1B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		08AF78A02B5041F000A0DC1B /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
+		08AF78A22B582B3A00A0DC1B /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 			children = (
 				08AF78942B4DA5A200A0DC1B /* Question.swift */,
 				08AF789E2B5040DB00A0DC1B /* Data.swift */,
-				08AF78A02B5041F000A0DC1B /* QuizManager.swift */,
+				08AF78A22B582B3A00A0DC1B /* GameManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -183,10 +183,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				08AF78972B4EEEF000A0DC1B /* CustomButton.swift in Sources */,
+				08AF78A32B582B3A00A0DC1B /* GameManager.swift in Sources */,
 				08AF78952B4DA5A200A0DC1B /* Question.swift in Sources */,
 				08AF78862B4D9E8800A0DC1B /* ContentView.swift in Sources */,
 				08AF789D2B4EF48800A0DC1B /* QuestionView.swift in Sources */,
-				08AF78A12B5041F000A0DC1B /* QuizManager.swift in Sources */,
 				08AF78992B4EF04300A0DC1B /* ProgressBar.swift in Sources */,
 				08AF789B2B4EF0C600A0DC1B /* AnswerRow.swift in Sources */,
 				08AF78842B4D9E8800A0DC1B /* Country_Flag_GameApp.swift in Sources */,

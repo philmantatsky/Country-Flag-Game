@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct QuestionView: View {
+    @EnvironmentObject var quizManager: QuizManager
     var body: some View {
         VStack(spacing: 20) {
             HStack {

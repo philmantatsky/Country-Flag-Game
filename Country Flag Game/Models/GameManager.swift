@@ -17,6 +17,7 @@ class GameManager: ObservableObject {
     @Published private(set) var progress: CGFloat = 0.0
     @Published private(set) var score = 0
     init() {
+        loadQuestions()
         reset()
     }
     func reset() {
@@ -25,6 +26,7 @@ class GameManager: ObservableObject {
         score = 0
         progress = 0.0
         playingGame = true
+        goToNextQuestion()
     }
     func loadQuestions() {
         let countries = Data().countries

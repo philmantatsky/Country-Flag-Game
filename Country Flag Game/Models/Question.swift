@@ -12,7 +12,7 @@ struct Answer: Identifiable {
     var isCorrect: Bool
 }
 
-struct Question {
+struct Question : Identifiable {
     var id = UUID()
     var correctAnswer: Answer
     var incorrectAnswer: [Answer]
